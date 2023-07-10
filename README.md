@@ -1,4 +1,4 @@
-# Snake-AI-Game
+![quicklatex com-70991fb14d9c469b4f9a35fb6ad8cb9d_l3](https://github.com/JordiPG05/Snake-AI-Game/assets/100807571/c87e6c71-962a-4048-8a8f-7211d63a94f7)# Snake-AI-Game
 
 Tenemos que crear tres Módulos para este proyecto:
 
@@ -29,3 +29,24 @@ La idea base del modelo es esta:
 Utilizaremos en este caso PyTorch pero se puede utilizar cualquier modelo de refuerzo por vectores (como TensorFlow).
 
 Crearemos una RNN de una capa de entrada de tamaño 11, una capa densa y una capa de salida de 3 neuronas (recto, derecha, izquierda). *PUEDEN SER NECESARIAS MODIFICACIONES POSTERIORES*.
+
+### Funcionamiento del modelo
+
+Con esta primera idea en la cabeza, vamos a definir el funcionamiento del modelo.
+
+Siguiendo la base de la ecuación de Bellman:
+
+![quicklatex com-70991fb14d9c469b4f9a35fb6ad8cb9d_l3](https://github.com/JordiPG05/Snake-AI-Game/assets/100807571/157e2f43-6be6-45d4-8497-6a81427d1c29)
+
+Adaptando esta ecuación, obtenemos que:
+
+![image2](https://github.com/JordiPG05/Snake-AI-Game/assets/100807571/8647b239-952d-4e09-b967-e54060bfdc2b)
+
+Crearemos tambien una variable que almacene el estado original, la acción y el estado posterior. De esta forma el modelo tendra una memoria de repetición y mejorara su rendimiento.
+
+Estas dos operaciones entran en bucle hasta que finaliza el juego.
+
+LA CLAVE ES CREAR UN BUEN MODELO ya que la precisión de la serpiente depende de ello.
+
+
+
