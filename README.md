@@ -20,3 +20,12 @@ Una vez tengamos el vector, el agente pasara los datos al modelo, este modelo re
 - Otros: +0
 
 Se actualizara el valor de Q y se entrenara el modelo.
+
+## El modelo
+La idea base del modelo es esta:
+
+![Model1](https://github.com/JordiPG05/Snake-AI-Game/assets/100807571/0d67c6bb-5afa-48c1-a0aa-509849557cb9)
+
+Utilizaremos en este caso PyTorch pero se puede utilizar cualquier modelo de refuerzo por vectores (como TensorFlow).
+
+Crearemos una RNN de una capa de entrada de tamaño 11, una capa densa y una capa de salida de 3 neuronas (recto, derecha, izquierda). *PUEDEN SER NECESARIAS MODIFICACIONES POSTERIORES*.
