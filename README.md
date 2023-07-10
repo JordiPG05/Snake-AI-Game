@@ -46,7 +46,7 @@ Crearemos tambien una variable que almacene el estado original, la acción y el 
 
 Estas dos operaciones entran en bucle hasta que finaliza el juego.
 
-LA CLAVE ES CREAR UN BUEN MODELO ya que la precisión de la serpiente depende de ello.
+**LA CLAVE ES CREAR UN BUEN MODELO** ya que la precisión de la serpiente depende de ello.
 
 
 
