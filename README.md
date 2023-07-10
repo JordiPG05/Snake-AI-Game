@@ -1,4 +1,4 @@
-![quicklatex com-70991fb14d9c469b4f9a35fb6ad8cb9d_l3](https://github.com/JordiPG05/Snake-AI-Game/assets/100807571/c87e6c71-962a-4048-8a8f-7211d63a94f7)# Snake-AI-Game
+# Snake-AI-Game
 
 Tenemos que crear tres Módulos para este proyecto:
 
